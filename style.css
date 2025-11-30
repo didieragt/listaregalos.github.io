@@ -1,0 +1,14 @@
+/* Copos de nieve */
+.snow {
+  background-image: url("https://www.transparenttextures.com/patterns/snow.png");
+  animation: snow 20s linear infinite;
+}
+
+@keyframes snow {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 1000px;
+  }
+}
